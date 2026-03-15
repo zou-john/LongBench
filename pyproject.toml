@@ -1,0 +1,17 @@
+[project]
+name = "vendi-kv-cache"
+version = "0.1.0"
+description = "KV cache compression experiments with transformer models"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.0",
+    "transformers>=4.40",
+    "accelerate",
+    "huggingface-hub",
+    "datasets",
+    "click",
+    "matplotlib",
+    "seaborn",
+    "numpy",
+]
